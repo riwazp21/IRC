@@ -79,13 +79,13 @@ make
 This project was developed, tested, and debugged on a Linux server using tools like vim and command-line utilities. The use of Linux utilities ensured efficient development and reliable performance. Network traffic was analyzed and validated using tools like Wireshark and tshark.
 
 ### Future Enhancement
-Adding server-to-server communication for a distributed IRC network.
-Enhancing the client with a graphical user interface.
-Implementing a persistent database for user and channel data.
+- Adding server-to-server communication for a distributed IRC network.
+- Enhancing the client with a graphical user interface.
+- Implementing a persistent database for user and channel data.
 
 ### References
-RFC 2812: Internet Relay Chat: Client Protocol
-chi IRC: Example IRC interactions
+- RFC 2812: Internet Relay Chat: Client Protocol
+- chi IRC: Example IRC interactions
 
 
 
