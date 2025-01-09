@@ -56,4 +56,40 @@ The server supports a range of numeric reply codes for protocol conformance and 
   TCP_PORT=12345
   HEARTBEAT_INTERVAL=10
   STATS_INTERVAL=15
+  ```
+- **Client Configuration (`client.conf`)**:
+  ```plaintext
+  SERVER_IP=127.0.0.1
+  SERVER_PORT=12345
+  ```
+### Usage
+Run the following command to compile the server and client
+```plaintext
+make
+```
+### Running the server
+```plaintext
+./server server.conf
+```
+### Running the client
+```plaintext
+./client client.conf
+```
+### Development Environment
+This project was developed, tested, and debugged on a Linux server using tools like vim and command-line utilities. The use of Linux utilities ensured efficient development and reliable performance. Network traffic was analyzed and validated using tools like Wireshark and tshark.
+
+### Future Enhancement
+Adding server-to-server communication for a distributed IRC network.
+Enhancing the client with a graphical user interface.
+Implementing a persistent database for user and channel data.
+
+### References
+RFC 2812: Internet Relay Chat: Client Protocol
+chi IRC: Example IRC interactions
+
+
+
+
+
+  
 
