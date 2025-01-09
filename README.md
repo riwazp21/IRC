@@ -65,13 +65,13 @@ Run the following command to compile the server and client:
 ```bash
 make
 
-##Running the Server
-###Start the server using:
+## **Running the Server**
+### **Start the server using:**
 
 ./server server.conf
 
-##Running the Client
-###Run the client using
+## Running the Client
+### Run the client using
 ./client client.conf
 ## Development Environment
 This project was developed, tested, and debugged on a Linux server using tools like `vim` and command-line utilities. The use of Linux utilities ensured efficient development and reliable performance. Network traffic was analyzed and validated using tools like Wireshark and `tshark`.
