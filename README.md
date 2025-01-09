@@ -52,35 +52,8 @@ The server supports a range of numeric reply codes for protocol conformance and 
 
 ### Configuration
 - **Server Configuration (`server.conf`)**:
-- **Client Configuration (`client.conf`)**:
-## Technical Details
-- **Languages**: C++
-- **Concurrency**: Multi-client support implemented using `fork()` or multithreading.
-- **Regular Expressions**: Used for efficient parsing of IRC commands and messages.
-- **Case-Insensitive Commands**: Ensures uniformity across all client-server interactions.
+  ```plaintext
+  TCP_PORT=12345
+  HEARTBEAT_INTERVAL=10
+  STATS_INTERVAL=15
 
-## Usage
-### Compilation
-Run the following command to compile the server and client:
-```bash
-make
-
-## **Running the Server**
-### **Start the server using:**
-
-./server server.conf
-
-## Running the Client
-### Run the client using
-./client client.conf
-## Development Environment
-This project was developed, tested, and debugged on a Linux server using tools like `vim` and command-line utilities. The use of Linux utilities ensured efficient development and reliable performance. Network traffic was analyzed and validated using tools like Wireshark and `tshark`.
-
-## Future Enhancements
-- Adding server-to-server communication for a distributed IRC network.
-- Enhancing the client with a graphical user interface.
-- Implementing a persistent database for user and channel data.
-
-## References
-- [RFC 2812: Internet Relay Chat: Client Protocol](https://tools.ietf.org/html/rfc2812)
-- [chi IRC: Example IRC interactions](http://chi.cs.uchicago.edu/chirc/irc_examples.html)
